@@ -1,0 +1,98 @@
+
+.login_form{
+	width:30em;
+    height:25em;
+	background-image: url("../img/res/login_back.jpg");
+	background-size: 100% 100%;
+	border-radius: 5px;
+	margin:auto;
+	margin-top: 8em;
+	padding-left:10em;
+	padding-top: 5em;
+	background-color: #99997A;	
+	box-shadow: 5px 5px 5px #000;
+
+
+}
+tr{
+	height: 2.5em;
+}
+.logo_pic{
+	float: left;
+	margin-right: 1em;
+}
+.login_form input[type=text]{
+	width: 80%;
+	height: 2em;
+	padding-left: 1em;
+}
+.login_form input[type=password]{
+	width: 80%;
+	height: 2em;
+	padding-left: 1em;
+}
+
+
+.signup_form{
+	 width:35em;
+    height:32em;
+		background-image: url("../img/res/login_back.jpg");
+	background-size: 100% 100%;
+	border-radius: 5px;
+	margin:auto;
+	margin-top: 5em;
+	padding-left:8em;
+	padding-top: 5em;
+	background-color: #CFCFE1;	
+	box-shadow: 5px 5px 5px #000;
+
+
+}
+.signup_form input[type=text]{
+	width: 80%;
+	
+}
+.signup_form input[type=password]{
+	width: 80%;
+	
+}
+.footer{
+	width:40em;
+    
+	
+	border-radius: 5px;
+	margin:auto;
+	padding-left: 5em;
+	padding-top:5em;
+	position: relative;
+	color: #000;
+	font-size: 1.25em;
+	font-style:  italic;
+	font-weight: bold;
+
+}
+
+.high_lighter{
+	color:#000;
+	font-size: 1.5em;
+}
+.high_lighter2{
+	color:#000;
+
+}
+.rgtab{
+	width: 25em;
+	 white-space: nowrap;
+
+}
+
+#detect_p{
+	margin-bottom: 2em;
+	
+}
+#center_log{
+text-align: center;
+padding-top: 8em;
+padding-left: 2em;
+	
+}

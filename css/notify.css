@@ -1,0 +1,17 @@
+#test_noti{
+   width: 20em;
+   height: 5em;
+   margin-left: 5em;
+   background-color: #FFFFFF ;
+   position: fixed;
+   bottom: 4em;
+   padding: 20px 10px 10px 10px;
+   border:1px solid;
+   border-radius: 5px;
+   visibility: hidden;
+   font-family:Courier New;
+   font-size: 1em;
+   font-weight: bold;
+   text-align: center;
+
+}

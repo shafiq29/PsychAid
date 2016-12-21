@@ -1,0 +1,20 @@
+.back_top{
+	visibility: hidden;
+	padding: 5px 5px 5px 5px;
+position: fixed;  
+  left: 99%;
+  top: 90%;
+  width: 10em;
+  background-color: #520066;
+  border: 2px solid;
+  border-radius: 5px;
+  margin-left: -150px; 
+  color: white;
+
+}
+.back_top:hover{
+  background-color: #3399FF;
+  cursor: pointer;
+cursor: hand;
+
+}

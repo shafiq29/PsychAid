@@ -1,0 +1,192 @@
+
+#box{
+  background-color: #ede; 
+  position: fixed; 
+  bottom: 0;
+  border:1px solid;
+  border-radius: 5px;
+  border-color: #fff;
+  padding : 0 0 5px 0;
+  color:green;
+
+
+}
+#box_top{
+  height: 40px;
+  width:300px;
+  background-color: #bcd; 
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.holder{
+  height: 30px;
+  width: 33px;
+  float:right;
+  background-size: 100% 100%;
+  background-image: url('../img_icon/comments_add.png');
+}
+#box_mid{
+  height: 400px;
+  width:300px;
+  background-color: #abc; 
+}
+#box_mid_in{
+  padding-left: 10px;
+  height: 380px;
+  width:290px;
+  background-color: #ccb; 
+  overflow: auto ;
+  overflow-x: hidden;
+ 
+
+}
+#box input{
+	width: 100%;
+  font-size: 15px;
+  font-family: "Times New Roman", Georgia, Serif;
+  font-weight: bold;
+}
+.decor{
+	height: 40px;
+	width: 280px;
+	border: 1px solid;
+  border-color: #fff;
+  padding-bottom: 5px;
+}
+.num{
+  float: left;
+}
+.decor:hover{
+  background-color: gray;
+}
+.right_float_image{
+float: right;
+}
+.cro{
+  height: 30px;
+  width: 32px;
+  float:right;
+  background-image: url('../img_icon/cross.png');
+}
+.cro:hover{
+  background-color: #10aaaa;
+}
+.textb{
+  width: 200px;
+  border: 1px solid;
+  border-color: green;
+}
+
+.bubbledLeft,.bubbledRight{
+  position: relative;
+  margin-top: 3px;
+  max-width: 86%;
+  clear: both;
+  border-radius: 5px;
+}
+
+.bubbledLeft{
+  background-color: #FFD633;
+  display: inline-block;
+  padding: 10px 10px;
+ 
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+  word-wrap:break-word;
+  float: left;
+  margin-right: auto;
+  font-weight: bold;
+}
+
+.bubbledLeft:after{
+  content: "";
+  top: 20%;
+  right: 100%;
+  border-style: solid;
+  border-width: 12px 12px 12px 0;
+  border-color: transparent #FFD633;
+  display: block;
+  width: 0;
+  z-index: 1;
+  position: absolute;
+}
+
+.bubbledRight{
+
+   background-color: #99CCFF;
+  display: inline-block;
+  padding: 10px 10px;
+  
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+  word-wrap:break-word;
+  float: right;
+  margin-left: auto;
+  text-align: right;
+margin-right: 5%;
+font-weight: bold;
+}
+
+.bubbledRight:after{
+ content: "";
+  top: 20%;
+  left: 100%;
+  border-style: solid;
+  border-width: 12px 0 12px 12px;
+  border-color: transparent #99CCFF;
+  display: block;
+  width: 0;
+  z-index: 1;
+  position: absolute;
+  
+}
+
+.pro_ima img{
+  height: 90%;
+  width: 20%;
+  border-color: white;
+  border-radius: 10px;
+}
+
+.search_people{
+  height: 20%;
+  width: 18%;
+  overflow-y: scroll;
+}
+
+.status_up {
+    width: 99%;
+    min-height: 5em;
+    margin: 1em auto;
+    border: 1px solid #ccc;
+    border-color: white;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    font-family:Kalpurush, Solaimanlipi, 'Shonar Bangla', Vrinda, Serif;
+    
+}
+.hold_post {
+    width: 50%;
+    min-height: 5em;
+    margin: 1em auto;
+    
+    border-radius: 5px;
+    
+}
+
+
+
+
+.show_status_up{
+    width: 90%;
+    min-height: 5em;
+    height: 50em;
+    margin: 1em auto;
+    border:1px solid;
+    border-color: white;
+    border-radius: 5px;
+    overflow-y:scroll; 
+    padding: 5px 5px 5px 5px;
+    font-family:Kalpurush, Solaimanlipi, 'Shonar Bangla', Vrinda, Serif;
+}
+
+
